@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="navbar bg-navy">
             <h2>Saisa</h2>
         </nav>
     )
