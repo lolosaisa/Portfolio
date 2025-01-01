@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";  // Importing icons
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaCodepen } from "react-icons/fa";  // Importing icons
 
 const SocialLinks = () => {
   const links = [
@@ -7,12 +7,13 @@ const SocialLinks = () => {
     { icon: FaTwitter, href: "https://x.com/LoloSaisa", label: "Twitter" },
     { icon: FaLinkedin, href: "https://www.linkedin.com/in/loisemburu/", label: "LinkedIn" },
     { icon: FaInstagram, href: "https://www.instagram.com/iamyours._00", label: "Instagram" },
+    { icon: FaCodepen, href: "https://codepen.io/loisemburu", label: "Codepen" },
     
   ];
 
   return (
     <div className="fixed left-10 bottom-0 hidden md:block">
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-10">
         {links.map((link, index) => (
           <a
             key={link.label}
@@ -26,7 +27,7 @@ const SocialLinks = () => {
             <link.icon className="w-6 h-6" />
           </a>
         ))}
-        <div className="w-px h-12 bg-slate-50 mt-4"></div>
+        <div className="w-px h-20 bg-slate-50 mt-6"></div>
       </div>
     </div>
   );

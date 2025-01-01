@@ -2,9 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import mylogo from './assets/images/mylogo.png'
-import './styles/global.css'
+import './styles/global.css';
+
 import Navbar from './components/Navbar'
 import SocialLinks from './components/SocialLinks'
+import EmailLinks from './components/EmailLink';
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -12,6 +14,7 @@ const App = () => {
     <>
     <Navbar />
     <SocialLinks />
+    <EmailLinks />
     <div>
         <a href="https://vite.dev" target="_blank">
           <img src={mylogo} className="logo" alt="my logo" />
