@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import mylogo from './assets/images/mylogo.png'
-import './App.css'
+import './styles/global.css'
 import Navbar from './components/Navbar'
 import SocialLinks from './components/SocialLinks'
 

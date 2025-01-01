@@ -25,7 +25,7 @@ const Hero = () => {
           }`}
           style={{ animationDelay: "200ms" }}
         >
-          Your Name.
+          Loise Mburu.
         </h1>
         <h2
           className={`text-4xl md:text-7xl font-bold text-slate mb-6 ${
@@ -42,7 +42,7 @@ const Hero = () => {
           style={{ animationDelay: "400ms" }}
         >
           I'm a software engineer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
+          designing) exceptional digital experiences for both web2 and web3 . Currently, I'm focused on
           building accessible, human-centered products.
         </p>
         <div
