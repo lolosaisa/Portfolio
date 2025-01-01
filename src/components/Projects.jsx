@@ -27,7 +27,7 @@ const Projects = () => {
           Some Things I've Built
         </h2>
         <div className="space-y-32">
-          {projects.map((project, index) => (
+          {mainprojects.map((project, index) => (
             <div
               key={project.title}
               className="opacity-0 animate-fade-in-up"
@@ -41,3 +41,4 @@ const Projects = () => {
     )
 
 }
+export default Projects;
