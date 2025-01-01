@@ -17,6 +17,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        mint: '#008080',
+        
         navy: {
           DEFAULT: "#0A192F",
           light: "#112240",

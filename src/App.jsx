@@ -9,6 +9,9 @@ import SocialLinks from './components/SocialLinks'
 import EmailLinks from './components/EmailLink';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects';
+import Miniminds from './components/miniMinds';
+import MizpaSafetyHouse from './components/mizpaSafety';
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -24,6 +27,10 @@ const App = () => {
     <EmailLinks />
     <Hero />
     <AboutMe />
+    <MizpaSafetyHouse />
+    <Miniminds />
+
+    <Projects />
     
      
      

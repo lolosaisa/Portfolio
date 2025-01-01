@@ -30,6 +30,19 @@ body {
   min-height: 100vh;
 }
 
+
+.project-card {
+  @apply relative overflow-hidden rounded-lg bg-navy-light p-6 transition-all duration-300 hover:translate-y-[-5px];
+}
+
+.project-card img {
+  @apply transition-all duration-500 grayscale hover:grayscale-0;
+}
+
+.nav-link {
+  @apply text-slate hover:text-mint transition-colors duration-300;
+}
+
 h2 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -78,7 +91,17 @@ p {
   color: var(--dark-navy);
   border-color: var(--green-tint);
 }
+.project-card {
+  @apply relative overflow-hidden rounded-lg bg-navy-light p-6 transition-all duration-300 hover:translate-y-[-5px];
+}
 
+.project-card img {
+  @apply transition-all duration-500 grayscale hover:grayscale-0;
+}
+
+.nav-link {
+  @apply text-slate hover:text-mint transition-colors duration-300;
+}
 
 button {
   border-radius: 8px;

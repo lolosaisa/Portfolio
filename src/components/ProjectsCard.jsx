@@ -1,6 +1,8 @@
 import React from "react";
-import { Button } from "./ui/button";
-import { Github, ExternalLink } from "lucide-react";
+//import { Button } from "./ui/button";
+import {  ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
+import GlowButton from "./GlowButton";
 
 const ProjectCard = ({
   title,
@@ -15,7 +17,7 @@ const ProjectCard = ({
     <div className="relative grid md:grid-cols-12 gap-4 items-center">
       {/* Image Section */}
       <div className="md:col-span-7 relative group">
-        <div className="relative rounded-lg overflow-hidden">
+        <div className="relative rounded-lg overflow-hidden  grayscale group-hover:grayscale-0">
           <img
             src={imageUrl}
             alt={title}
@@ -23,18 +25,18 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 bg-navy bg-opacity-70 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center gap-4">
             {githubUrl && (
-              <Button
+              <GlowButton
                 variant="ghost"
                 size="icon"
                 className="text-slate-light hover:text-emerald-400"
               >
                 <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Github className="h-6 w-6" />
+                  <FaGithub className="h-6 w-6" />
                 </a>
-              </Button>
+              </GlowButton>
             )}
             {liveUrl && (
-              <Button
+              <GlowButton
                 variant="ghost"
                 size="icon"
                 className="text-slate-light hover:text-emerald-400"
@@ -42,7 +44,7 @@ const ProjectCard = ({
                 <a href={liveUrl} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="h-6 w-6" />
                 </a>
-              </Button>
+              </GlowButton>
             )}
           </div>
         </div>

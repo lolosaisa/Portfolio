@@ -15,7 +15,7 @@ const Projects = () => {
             title: "Miniminds",
             description: " A decentraliced application built on base and ethereum layer 2 , It is an e-learning platform that equalizes education between the rich and the poor. they earn through token based systems. Helps with personalized learning and a crowdfunding aspect  to help schools in developing countries buy gadgets and fund education. It is a work in progress. MAKE SURE YOU HAVE TOKENS WHILE TRYING OUT THE APP. EVEN IF IT'S TESTTOKENS",
             technologies: ["React", "Solidity", " Firebase" , "Javascript"],
-            imageUrl: "./assets/images/miniminds.png",
+            imageUrl: "./assets/images/Miniminds.png",
             githubUrl: "#https://github.com/masterchiefff/miniminds-dapp",
             liveUrl: "#https://miniminds-dapp.vercel.app/",
         }
