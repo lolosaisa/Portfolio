@@ -22,11 +22,11 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center ">
         <div className="space-y-10 space-x-5">
         <div className="flex items-center mb-8 pr-8">
-  <h2 className="text-2xl font-bold text-slate-light numbered-heading before:content-['01.'] before:mr-1 before:text-emerald-400 before:font-mono">
-    About Me
-  </h2>
-  <div className="w-60 h-px bg-gray-500 ml-4"></div>
-</div>
+          <h2 className="text-2xl font-bold text-slate-light numbered-heading before:content-['01.'] before:mr-1 before:text-emerald-400 before:font-mono">
+            About Me
+            </h2>
+            <div className="w-60 h-px bg-gray-500 ml-4"></div>
+        </div>
 
           
 
@@ -45,8 +45,8 @@ const About = () => {
             and I've had the privilege of working on different amazing projects {" "}
            
             <a href="#" className="text-emerald-400 hover:underline">a start-up</a>,{" "}
-            <a href="#" className="text-emerald-400 hover:underline">an NGO</a>, and{" "}
-            <a href="#" className="text-emerald-400 hover:underline">many more</a>. 
+            <a href="#https://www.mizpasafetyhouse.org/" className="text-emerald-400 hover:underline">an NGO</a>, and{" "}
+            <a href="#https://github.com/lolosaisa" className="text-emerald-400 hover:underline">many more</a>. 
             My main focus these days is building accessible, inclusive products and digital experiences.
           
           </p>
