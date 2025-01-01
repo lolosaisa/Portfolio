@@ -1,11 +1,5 @@
-import { cn } from "@/lib/utils";
-
-
-GlowButton.propTypes = {
-    children: PropTypes.node.isRequired,
-    className: PropTypes.string,
-};
-  
+import { cn } from "@/utils/cn";
+import PropTypes from "prop-types";
 
 const GlowButton = ({ children, className, ...props }) => {
     return (
@@ -25,5 +19,13 @@ const GlowButton = ({ children, className, ...props }) => {
     );
 };
 
-export default GlowButton;
+// Define prop types after the component definition
+GlowButton.propTypes = {
+    children: PropTypes.node.isRequired,
+    className: PropTypes.string,
+};
 
+export default GlowButton;
+// The GlowButton component is a simple button component that adds a glow effect when hovered.
+//  It accepts children and className props and applies the glow effect when hovered. 
+// The button is styled using Tailwind CSS classes and the cn utility function.

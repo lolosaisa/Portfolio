@@ -7,6 +7,7 @@ import './styles/global.css';
 import Navbar from './components/Navbar'
 import SocialLinks from './components/SocialLinks'
 import EmailLinks from './components/EmailLink';
+import Hero from './components/Hero';
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ const App = () => {
     <Navbar />
     <SocialLinks />
     <EmailLinks />
+    <Hero />
     <div>
         <a href="https://vite.dev" target="_blank">
           <img src={mylogo} className="logo" alt="my logo" />
