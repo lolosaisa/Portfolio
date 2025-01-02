@@ -20,13 +20,14 @@ const Hero = () => {
           Hi, my name is
         </p>
         <h1
-          className={`text-4xl md:text-7xl font-bold text-slate-light mb-4 ${
+          className={`text-5xl md:text-7xl font-bold text-slate-light mb-4 ${
             isVisible ? "animate-fade-in-up" : "opacity-0"
           }`}
           style={{ animationDelay: "200ms" }}
         >
           Loisa Mburu.
         </h1>
+        
         <h2
           className={`text-4xl md:text-7xl font-bold text-slate mb-6 ${
             isVisible ? "animate-fade-in-up" : "opacity-0"

@@ -1,54 +1,55 @@
 
 import React from "react";
+import Glowbutton from "./GlowButton";
 
 const Navbar = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/path/to/your-resume.pdf"; // Replace with your resume file's path
-    link.download = "Your_Resume.pdf"; // Customize the download file name
+    link.href = "./assets/loisemburu.pdf"; // Replace with your resume file's path
+    link.download = "LoiseMburu.pdf"; // Customize the download file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   return (
-    <nav className="bg-navy-light p-4 fixed w-full top-0 z-50 shadow-md">
+    <nav className="bg-navy-light p-4 fixed w-full top-0 left-0 z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold text-emerald-400">MyPortfolio</div>
-        <ul className="flex space-x-8 text-slate text-sm font-medium">
+        <div className="text-2xl font-bold text-teal-400">MyPortfolio</div>
+        <ul className="flex space-x-8 text-slate pt-3 text-sm font-medium">
           <li>
-            <a href="#about" className="hover:text-emerald-400 transition-colors">
-              About
+            <a href="#about" className="hover:text-teal-400 transition-colors">
+              01. About
             </a>
           </li>
           <li>
             <a
               href="#experience"
-              className="hover:text-emerald-400 transition-colors"
+              className="hover:text-teal-400 transition-colors"
             >
-              Experience
+              02. Experience
             </a>
           </li>
           <li>
-            <a href="#work" className="hover:text-emerald-400 transition-colors">
-              Work
+            <a href="#work" className="hover:text-teal-400  transition-colors">
+              03. Work
             </a>
           </li>
           <li>
             <a
-              href="#contact"
-              className="hover:text-emerald-400 transition-colors"
+              href="#GetinTouch"
+              className="hover:text-teal-400 transition-colors"
             >
-              Contact
+              04. Contact
             </a>
           </li>
           <li>
-            <button
+            <Glowbutton
               onClick={downloadResume}
-              className="bg-gradient-to-r from-emerald-400 to-teal-500 text-white py-2 px-4 rounded-lg shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2"
+              className="  text-white items-end rounded shadow-lg hover:shadow-teal-500/50 transition-all duration-300 focus:outline-none focus:ring-2"
             >
               Resume
-            </button>
+            </Glowbutton>
           </li>
         </ul>
       </div>

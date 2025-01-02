@@ -15,6 +15,7 @@ import MizpaSafetyHouse from './components/mizpaSafety';
 import ProjectList from './data/Otherprojects';
 import GetInTouch from './components/GetinTouch';
 import Afida from './components/Afida.';
+import Experience from './components/Experience';
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -25,11 +26,12 @@ const App = () => {
     </div>
     
     
-    
+    <Navbar />
     <SocialLinks />
     <EmailLinks />
     <Hero />
     <AboutMe />
+    <Experience />
     <MizpaSafetyHouse />
     <Miniminds />
     <Afida />
