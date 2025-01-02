@@ -43,8 +43,9 @@ const Hero = () => {
           style={{ animationDelay: "400ms" }}
         >
           I'm a software engineer specializing in building (and occasionally
-          designing) exceptional digital experiences for both web2 and web3 . Currently, I'm focused on
-          building accessible, human-centered products.
+          designing) exceptional digital experiences for both web2 and web3 . My focus is on building accessible, impactful and human centered products that leverage the best of modern technology, 
+          from traditional web applications to blockchain-integrated platforms.
+        
         </p>
         <div
           className={`${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
