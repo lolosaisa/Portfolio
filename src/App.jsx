@@ -12,6 +12,9 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects';
 import Miniminds from './components/miniMinds';
 import MizpaSafetyHouse from './components/mizpaSafety';
+import ProjectList from './data/Otherprojects';
+import GetInTouch from './components/GetinTouch';
+import Afida from './components/Afida.';
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -20,7 +23,7 @@ const App = () => {
     <div>
       <h1>Hello Network</h1>
     </div>
-    <Navbar />
+    
     
     
     <SocialLinks />
@@ -29,8 +32,10 @@ const App = () => {
     <AboutMe />
     <MizpaSafetyHouse />
     <Miniminds />
+    <Afida />
 
-    <Projects />
+    <ProjectList />
+    <GetInTouch />
     
      
      

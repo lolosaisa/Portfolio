@@ -9,8 +9,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center px-6 md:px-24 bg-navy text-slate">
-      <div className="max-w-4xl">
+    <div className="min-h-screen flex items-center px-6 md:px-24 bg-navy-light text-slate">
+      <div className="max-w-4xl text-left">
         <p
           className={`text-accent mb-5 tracking-wider ${
             isVisible ? "animate-fade-in-up" : "opacity-0"

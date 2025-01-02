@@ -30,7 +30,7 @@ const About = () => {
 
           
 
-          <p className="text-slate text-lg flex justify-left">
+          <p className="text-slate text-lg flex justify-left text-left">
             
             Hello! My name is Loisa and I enjoy creating things that live on the web.
              My journey into the world of software development began back in university when I pursued a BSc in IT.
@@ -39,7 +39,7 @@ const About = () => {
               I used Flutter and Dart to build an e-learning platform during my internship.
             
           </p>
-          <p className="text-slate text-lg">
+          <p className="text-slate text-lg text-left">
             Fast-forward to today,
             I enrolled to differentcourses eg. {" "}  <a href="#https://www.alxafrica.com/programmes/" className="text-emerald-400 hover:underline">Software Engineering at ALX</a>,
             and I've had the privilege of working on different amazing projects {" "}
@@ -50,7 +50,7 @@ const About = () => {
             My main focus these days is building accessible, inclusive products and digital experiences.
           
           </p>
-          <p className="text-slate text-lg">
+          <p className="text-slate text-lg text-left">
             Most recently I was introduced to the world of Web3, and I haven’t looked back since. 
             From blockchain to smart contracts, it's been an exhilarating journey,
              and I’m always on the lookout for new challenges and opportunities to grow.

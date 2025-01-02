@@ -12,7 +12,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="fixed left-10 bottom-0 hidden md:block">
+    <div className="fixed  left-10 bottom-0 hidden md:block">
       <div className="flex flex-col space-y-10">
         {links.map((link, index) => (
           <a
