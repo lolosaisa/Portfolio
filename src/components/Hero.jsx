@@ -25,7 +25,7 @@ const Hero = () => {
           }`}
           style={{ animationDelay: "200ms" }}
         >
-          Loisa Mburu.
+          Loise Mburu.
         </h1>
         
         <h2
